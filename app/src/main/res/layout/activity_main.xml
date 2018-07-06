@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@mipmap/earthmovement"
+    tools:context=".view.MainActivity">
+
+    <TextView
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+      />
+
+    <TextView
+        android:textColor="@android:color/widget_edittext_dark"
+        android:gravity="center"
+       android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/informacion_sismica"
+        android:textSize="34sp"/>
+
+
+    <TextView
+        android:textColor="@android:color/widget_edittext_dark"
+        android:gravity="center"
+        android:text= "@string/ultimo_sismo_encontrado"
+        android:layout_margin="16dp"
+        android:textSize="26sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_margin="16dp"
+        android:layout_gravity="center"
+        android:id="@+id/sismoResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cargando"
+        android:textSize="20sp"
+        android:textColor="@android:color/widget_edittext_dark"
+         />
+
+</LinearLayout>
